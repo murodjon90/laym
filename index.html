@@ -11,65 +11,43 @@
 </head>
 <body>
   <header >
-    <nav class="navbar navbar-expand-lg navbar-light ">
-      <div class="w-100 d-flex">
-        <a href="#" class="logo navbar-brand"><img src="./img/logo.png" alt=""></a>
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse flex-column" id="navbarSupportedContent">
-          <div class="bg-secondary w-100 d-flex">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link "  href="#">
-                  <img src="./img/call.png" alt="">
-                  7756
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                
-                <a class="nav-link dropdown-toggle" href="#" id="location" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Зона доставки</a>
-                
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="watch" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="./img/watch.png" alt="">
-                  17:00 - 17:45
-                </a>
-              </li>
-            </ul>
-            
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Шеф-лайм</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Вакансии</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Вопрос-ответ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Бонусная программа</a>
-              </li>
-            </ul>
-          </div>
-          <div class="collapse navbar-collapse">
-            <button class="btn btn-green rounded-3"> 
-              <img src="./img/searchBar.png" alt="">
-              Каталог
-            </button>
-            <form class="form position-relative d-flex align-items-center">
-              <input type="text" class="form-control" placeholder="Купить молоко"> 
-              <i class="bi bi-search position-absolute end-0 me-2"></i>  
-            </form>
-          </div>
+    <nav class="d-flex  align-items-center ">
+      <a href="#" class="logo shadow d-flex justify-content-end align-items-end pe-4 pb-4">
+        <img src="./img/logo.png" alt="" />
+      </a>
+      <div class="menu w-100">
+        <div class="bg-secondary d-flex justify-content-between menu__top">
+          <ul class="header__list gap-5 list-unstyled d-flex">
+            <li>
+              <a href="#" class="header__link">
+                <img src="./img/call.png" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#" class="header__link">
+                <img src="./img/location.png" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#" class="header__link">
+                <i class="bi bi-clock"></i>
+              </a>
+            </li>
+          </ul>
+          <ul class="header__list list-unstyled d-flex gap-5">
+            <li><a href="#" class="header__link"> Шеф-лайм </a></li>
+            <li><a href="#" class="header__link"> Вакансии </a></li>
+            <li><a href="#" class="header__link"> Вопрос-ответ </a></li>
+            <li><a href="#" class="header__link"> Бонусная программа </a></li>
+          </ul>
         </div>
-        
-        
-        
+        <div class="menu__bottom">
+          
+          <a href="" class="btn btn-green">
+            <img src="./img/searchBar.png" alt="">
+            Каталог
+          </a>
+        </div>
       </div>
     </nav>
   </header>

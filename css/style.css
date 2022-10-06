@@ -7,3 +7,14 @@
 .btn-green{
   background: #A1D214;
 }
+
+.logo{
+  width: 193px;
+  height: 193px;
+  border-radius: 50%;
+  position: absolute;
+  top: -90px;
+  left: -50px;
+  z-index: 2;
+  background: white;
+}
