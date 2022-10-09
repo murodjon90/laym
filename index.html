@@ -16,81 +16,84 @@
         <img src="./img/logo.png" alt="" />
       </a>
       <div class="menu w-100">
-        <div class="bg-secondary d-flex justify-content-between menu__top">
-          <ul class="header__list gap-5 list-unstyled d-flex">
+        <div class="bg-secondary d-flex align-items-center pt-2 justify-content-between menu__top">
+          <ul class="header__list gap-5 list-unstyled d-flex align-items-center">
             <li>
-              <a href="#" class="header__link">
+              <a href="#" class="header__link text-white text-decoration-none">
                 <img src="./img/call.png" alt="" />
+                7756
               </a>
             </li>
             <li>
-              <a href="#" class="header__link">
+              <a href="#" class="header__link text-white text-decoration-none">
                 <img src="./img/location.png" alt="" />
+                Зона доставки
               </a>
             </li>
             <li>
-              <a href="#" class="header__link">
-                <i class="bi bi-clock"></i>
+              <a href="#" class="header__link text-white text-decoration-none">
+                <i class="bi bi-clock icon-green"></i>
+                17:00 - 17:45
               </a>
             </li>
           </ul>
-          <ul class="header__list list-unstyled d-flex gap-5">
-            <li><a href="#" class="header__link"> Шеф-лайм </a></li>
-            <li><a href="#" class="header__link"> Вакансии </a></li>
-            <li><a href="#" class="header__link"> Вопрос-ответ </a></li>
-            <li><a href="#" class="header__link"> Бонусная программа </a></li>
+          <ul class="header__list list-unstyled d-flex gap-5 me-4">
+            <li><a href="#" class="header__link text-white text-decoration-none "> Шеф-лайм </a></li>
+            <li><a href="#" class="header__link text-white text-decoration-none "> Вакансии </a></li>
+            <li><a href="#" class="header__link text-white text-decoration-none "> Вопрос-ответ </a></li>
+            <li><a href="#" class="header__link text-white text-decoration-none "> Бонусная программа </a></li>
           </ul>
         </div>
-        <div class="menu__bottom">
-          
-          <a href="" class="btn btn-green">
-            <img src="./img/searchBar.png" alt="">
-            Каталог
-          </a>
+        <div class="menu__bottom  shadow ">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+              <form class="d-flex gap-3">
+                <button class="btn zor btn-green" type="submit">  <img src="./img/searchBar.png" alt="">  Каталог</button>
+                
+                <div class="form-control yomon d-flex gap-3 align-items-center">
+                  <input class="flex-grow-1 border-0 yomon__input" type="text" placeholder="Купить молоко"  >
+                  <i class="bi bi-search"></i>
+                </div>
+                
+              </form>
+              <button type="button" class="btn btn-warning qalesan ms-3"><i class="bi bi-percent"></i></button>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarScroll ">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll gap-4" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Скидки
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item d-flex">
+                    <img class="it" src="./img/Group.png" width="15px" height="20px" alt="">
+                    <a class="nav-link active" aria-current="page" href="#">Кабинет</a>
+                  </li>
+                  
+                  <li class="nav-item d-flex">
+                    <img class="it" src="./img/Vector.png" width="20px" height="18px" alt="">
+                    <a class="nav-link " href="#"  >Избранное</a>
+                  </li>
+  
+                  <li class="nav-item d-flex">
+                    <img class="it" src="./img/shopping-cart(3) 3.png" width="20px" height="20px" alt="">
+                    <a class="nav-link " href="#"  >Корзина</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         </div>
         
         
-        <nav class="navbar navbar-expand-lg navbar-light ">
-          <div class="container">
-            <form class="d-flex gap-3">
-              <button class="btn btn-outline-success zor" type="submit">  <img src="./img/searchBar.png" alt="">  Каталог</button>
-              <input class="form-control me-2 yomon " type="search" placeholder="Search"  >
-            </form>
-            <button type="button" class="btn btn-warning qalesan"><i class="bi bi-percent"></i></button>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarScroll ">
-              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll gap-4" style="--bs-scroll-height: 100px;">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Скидки
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item d-flex">
-                  <img class="it" src="./img/Group.png" width="15px" height="20px" alt="">
-                  <a class="nav-link active" aria-current="page" href="#">Кабинет</a>
-                </li>
-                
-                <li class="nav-item d-flex">
-                  <img class="it" src="./img/Vector.png" width="20px" height="18px" alt="">
-                  <a class="nav-link " href="#"  >Избранное</a>
-                </li>
-
-                <li class="nav-item d-flex">
-                  <img class="it" src="./img/shopping-cart(3) 3.png" width="20px" height="20px" alt="">
-                  <a class="nav-link " href="#"  >Корзина</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
       </div>
     </nav>
   </header>

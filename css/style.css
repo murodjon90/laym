@@ -8,6 +8,10 @@
   background: #A1D214;
 }
 
+.icon-green{
+  color: #A1D214;
+}
+
 .logo{
   width: 193px;
   height: 193px;
@@ -25,11 +29,29 @@
 }
 .zor{
   width: 135px;
-
 }
 .yomon{
   width: 425px;
 }
+
+.yomon__input:focus{
+  outline: none;
+}
+
+
 .it{
   margin-top: 10px;
+}
+
+.menu__top{
+  padding-left: 193px;
+}
+
+.menu__bottom{
+  width: calc(100% - 60px);
+  margin-left: auto;
+}
+
+.header__link:hover{
+  color: #A1D214 !important;
 }
