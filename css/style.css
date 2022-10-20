@@ -55,3 +55,23 @@
 .header__link:hover{
   color: #A1D214 !important;
 }
+
+.swiper{
+  width: 855px;
+  height: 361px;
+}
+
+.swiper-slide{
+  border-radius: 10px;
+}
+
+.bg-violet{
+  background: linear-gradient(90deg, #E53935 0%, #E35D5B 100%);
+}
+.bg-green{
+  background: linear-gradient(90deg, #1A2980 0%, #26D0CE 100%);
+}
+
+.bg-yellow{
+  background: linear-gradient(90deg, #C21500 0%, #FFC500 100%);
+}
