@@ -75,3 +75,16 @@
 .bg-yellow{
   background: linear-gradient(90deg, #C21500 0%, #FFC500 100%);
 }
+
+.z-minus-2{
+  z-index: -2;
+}
+
+.text-black{
+  color: #333333;
+}
+
+.product{
+  line-height: 10px;
+  font-size: 8px;
+}
