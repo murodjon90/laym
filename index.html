@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+  <!-- Header starts -->
   <header >
     <nav class="d-flex  align-items-center ">
       <a href="#" class="logo shadow d-flex justify-content-end align-items-end pe-4 pb-4">
@@ -95,45 +96,76 @@
         </div>
       </div>
     </nav>
-    <div class="mt-3">
-      <!-- Slider main container -->
-      <div class="swiper ">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide bg-violet">
-            
-          </div>
-          <div class="swiper-slide bg-green">
-            
-          </div>
-          <div class="swiper-slide bg-yellow">
-            
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-9">
+          <div class="mt-3">
+            <!-- Slider main container -->
+            <div class="swiper ">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide ps-5 d-flex flex-column align-items-start justify-content-center position-relative bg-violet">
+                  <img src="./img/swiper.png" class="z-minus-2 position-absolute img-fluid end-0" alt="">
+                  <h1 class="text-white">ЛАЙМ <br> ФРЕШ МАРКЕТ</h1>
+                  <p class="text-white fs-5 mt-3">Давайте знакомиться!</p>
+                  <a href="#" class="rounded-3 text-decoration-none d-flex align-items-center text-black bg-white fw-bold ps-5">Узнать о нас <span class="ms-3 pe-3 icon-green fs-4">&rarr;</span></a>
+                </div>
+                <div class="swiper-slide ps-5 d-flex flex-column justify-content-center position-relative bg-green">
+                  <img src="./img/swiper1.png" class="z-minus-2 position-absolute end-0" alt="">
+                </div>
+                <div class="swiper-slide ps-5 d-flex flex-column justify-content-center position-relative bg-yellow">
+                  <img src="./img/swiper2.png" class="z-minus-2 position-absolute end-0" alt="">
+                  
+                </div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+      
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+      
+              <!-- If we need scrollbar -->
+              <div class="swiper-scrollbar"></div>
+            </div>
           </div>
         </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
+        <div class="col-3 bg-light">
+          <div >
+            <p>Бакалея</p>
+            <div class="bakaleya d-flex align-items-center bg-white gap-3 justify-content-evenly">
+              <img src="./img/bakaleya.png" alt="">
+              <div>
+                <button class="border-0 bg-body">+</button>
+                <p class="mb-0">2</p>
+                <button class="border-0 bg-body">-</button>                
+              </div>
+              <div>
+                <p class="mb-0 product">Макаронные изделия <br> Макфа триколлини...</p>
+                <p class="mb-0">120 руб. <span>450г.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     
     
     
+    
   </header>
+  <!-- Header end -->
   
-  
+  <!-- Main starts -->
   <main>
     <div class="block"></div>
   </main>
+  <!-- Main end -->
   
-  
+  <!-- Bootstrap script -->
   <script src="./script/bootstrap.bundle.min.js"></script>
+  <!-- Swiper script -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   
   <script>
