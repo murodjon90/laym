@@ -125,3 +125,19 @@
 .header__right::-webkit-scrollbar{
  width: 3px;
 }
+.col_good{
+  width: 200px;
+  height: 572px;
+  
+  margin-left: 55px;
+}
+.main__content{
+  margin-top: -400px;
+}
+.divs{
+  width: 118px;
+  height: 4px;
+  background: #A1D214;
+  border-radius: 10px;
+  margin-top: -15px;
+}
