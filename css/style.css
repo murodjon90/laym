@@ -184,5 +184,73 @@ body{
 .new-hover:hover{
   transform: scale(1.05);
 }
+.new-hover:hover{
+  background: #FFFFFF;
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+.main__notebook{
 
+  width: 1230px;
+  height: 400px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 23px;
+  margin-bottom: 36px;
+}
+.tall{
+  width: 290px;
+  height: 4px;
+  background: linear-gradient(90deg, #FFA800 0%, #FFC709 100%), #A1D214;
+  border-radius: 10px;
+  margin-top: -15px;
+}
+.new-bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius:5px ;
+  background:#A1D214;
+}
+.new-hover:hover .main__bottom{
+  background: #A1D214;
+  border-radius: 5px;
+  height: 34px;
+}
+.text-color{
+  color: red;
+}
+.new-hover:hover .text-color{
+  color: black;
+}
+.new-buttom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 22px;
+  border-radius: 5px;
+  color: white;
+  background: red;
+  font-size: 10px;
   
+}
+.new-hover:hover .new-buttom{
+  display: none;
+  
+}
+  .tal{
+  width: 117px;
+  height: 4px;
+  background: linear-gradient(90deg, #00D1FF 0%, #17BADE 0.01%, #14D28E 100%), #A1D214;
+  border-radius: 10px;
+  margin-top: -15px;
+  }
+  .novinki{
+    font-size: 24px;
+    font-family: Montserrat;
+    
+  }
